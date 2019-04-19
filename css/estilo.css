@@ -182,7 +182,7 @@ h2.preco-prato {
 
 #ver-mais {
     display: inline-block;
-    color: #ffffff;
+    color: #000000;
     padding: 10px;
     font-size: 15px;
     /* clear: left; */
@@ -201,9 +201,8 @@ h2.preco-prato {
 }
 
 #sobre-logo {
-    width: 200px;
-    height: 500px;
-    margin: 10px;
+    width: 27.7%;
+    margin: 10px 20px 10px 10px;
     padding: 20px;
     display: inline-block;
     background: #ffffff;
@@ -212,15 +211,15 @@ h2.preco-prato {
     color: #000000;
     line-height: 25px;
     text-align: justify;
+    vertical-align: top;
 }
 
 #sobre-logo img {
-    display: inline;
+    width: 100%;
 }
 
 #sobre-descricao {
-    width: 700px;
-    height: 500px;
+    width: 50%;
     margin: 10px;
     padding: 20px;
     display: inline-block;
@@ -230,6 +229,7 @@ h2.preco-prato {
     color: #000000;
     line-height: 25px;
     text-align: justify;
+    vertical-align: top;
 }
 
 #sobre-descricao p {
@@ -242,7 +242,7 @@ h2.preco-prato {
 }
 
 input[type=text], 
-input[type=number], 
+input[type=tel], 
 input[type=submit],
 textarea {
     box-sizing: border-box;
