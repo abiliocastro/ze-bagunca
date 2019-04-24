@@ -280,3 +280,28 @@ footer {
 .footer-col h1 {
     font-weight: bold;
 }
+
+.ui-widget {
+    font-family: 'Lato', Arial, Helvetica, sans-serif; 
+}
+
+.ui-widget.ui-widget-content {
+    border: none; 
+}
+
+.ui-widget-content {
+    color: #ffffff; 
+}
+
+.ui-corner-all {
+    border-radius: 0px;
+}
+
+.ui-widget-shadow {
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .5);;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .5);;
+}
+
+.ui-tooltip {
+    background-color: #ff2a2a;
+}
