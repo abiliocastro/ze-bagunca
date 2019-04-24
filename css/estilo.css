@@ -82,7 +82,7 @@ table {
 
 #menu {
     margin-top: 20px;
-    display: inline-block;
+    display: inline-block !important;
     
 }
 
@@ -275,6 +275,16 @@ footer {
     text-align: center;
     line-height: 25px;
     padding: 100px 0 100px 0;
+}
+
+@media screen and (max-width: 880px) {
+    .footer-col {
+        float: left;
+        width: 100%;
+        text-align: center;
+        line-height: 25px;
+        padding: 100px 0 100px 0;
+    }    
 }
 
 .footer-col h1, h2 {

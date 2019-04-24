@@ -81,8 +81,11 @@ table {
 }
 
 #menu {
-    margin-top: 20px;
-    display: none;   
+    display: none;
+    background-color: #ff2a2a;
+    z-index: 9999;
+    height: 210px;
+    margin-top: -3px; 
 }
 
 #menu-butao {
@@ -100,21 +103,19 @@ table {
 }
 
 #menu a {
+    float: left;
+    width: 100%;
+    display: block;
+    padding: 25px 0 25px 0;
     text-decoration: none;
     color: #ffffff;
-    margin: 10px;
-    padding-bottom: 10px;
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-size: 20px;
-    transition: border .1s linear; 
 }
 
 #menu a.active {
-    border-bottom: 2px solid #ffffff;
-}
-
-#menu a:hover {
-    border-bottom: 2px solid #ffffff;
+    background-color: #ffffff;
+    color: #ff2a2a;
 }
 
 .pratos-container {
@@ -209,6 +210,7 @@ h2.preco-prato {
 .sobre-container {
     padding: 20px;
     background-color: #ff9955;
+    overflow: auto;
     text-align: center;
     font-size: 0px;
 }
@@ -250,7 +252,7 @@ h2.preco-prato {
 }
 
 .form-container {
-    width: 500px;
+    width: 100%;
     margin: auto;
 }
 
@@ -280,7 +282,7 @@ footer {
 
 .footer-col {
     float: left;
-    width: 25%;
+    width: 100%;
     text-align: center;
     line-height: 25px;
     padding: 100px 0 100px 0;
